@@ -1,6 +1,3 @@
-"""
-Основной модуль программы для работы с математическими функциями
-"""
 
 import sys
 from typing import Tuple, List
@@ -187,4 +184,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
