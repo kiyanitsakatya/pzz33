@@ -1,6 +1,4 @@
-"""
-Модуль с декораторами для функций
-"""
+
 
 import time
 import functools
@@ -91,3 +89,4 @@ def logging_decorator(func: Callable) -> Callable:
         print(f"📝 Функция '{func.__name__}' вернула: {result}")
         return result
     return wrapper
+
