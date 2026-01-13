@@ -1,7 +1,7 @@
 
 
 import math
-from decorators import validate_input_decorator, timer_decorator, cache_decorator, logging_decorator
+from decorate import validate_input_decorator, timer_decorator, cache_decorator, logging_decorator
 
 
 # Базовые математические функции
@@ -112,4 +112,5 @@ def get_available_functions() -> dict:
         9: ("Кубическая (y = x³ - 3x)", cubic_function),
         10: ("Рациональная (y = 1/(x² + 1))", rational_function)
     }
+
 
