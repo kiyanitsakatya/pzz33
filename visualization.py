@@ -1,6 +1,3 @@
-"""
-Модуль для визуализации данных
-"""
 
 import matplotlib.pyplot as plt
 from typing import List, Tuple, Optional
@@ -161,3 +158,4 @@ def print_xy_table(x_values: List[float], y_values: List[float],
     if n > 1:
         step = x_values[1] - x_values[0]
         print(f"   Шаг по X: {format_number(step)}")
+
