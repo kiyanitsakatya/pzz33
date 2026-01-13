@@ -1,5 +1,5 @@
 import math
-from decorators import validate_input, log_call, timer
+from decorate import validate_input, log_call, timer
 
 
 @validate_input
@@ -94,5 +94,6 @@ def trigonometric_function(a: float, b: float, step: float) -> tuple:
         x_values.append(x)
         y_values.append(math.sin(x) + math.cos(x))
         x += step
+
 
     return x_values, y_values
