@@ -1,7 +1,7 @@
 
 import sys
 from typing import Tuple, List
-import functions as funcs
+import function as funcs
 import visualization as vis
 
 
@@ -184,5 +184,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
