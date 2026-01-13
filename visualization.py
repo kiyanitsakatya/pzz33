@@ -1,3 +1,7 @@
+"""
+Модуль для визуализации данных
+"""
+
 import matplotlib.pyplot as plt
 from typing import List, Tuple, Optional
 import numpy as np
@@ -149,7 +153,7 @@ def print_xy_table(x_values: List[float], y_values: List[float],
     print("=" * total_width)
     
     # Статистика
-    print(f"\n СТАТИСТИКА:")
+    print(f"\n📊 СТАТИСТИКА:")
     print(f"   Всего точек: {n}")
     print(f"   X ∈ [{format_number(min(x_values))}, {format_number(max(x_values))}]")
     print(f"   Y ∈ [{format_number(min(y_values))}, {format_number(max(y_values))}]")
@@ -157,5 +161,3 @@ def print_xy_table(x_values: List[float], y_values: List[float],
     if n > 1:
         step = x_values[1] - x_values[0]
         print(f"   Шаг по X: {format_number(step)}")
- 
-
